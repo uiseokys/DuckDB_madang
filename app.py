@@ -8,12 +8,7 @@ st.set_page_config(page_title="Madang DB + DuckDB", page_icon="📚")
 
 # 🔹 여기에 본인 학번/이름 적기
 st.title("Madang DB + DuckDB + Streamlit")
-st.caption("학번: 20XXXXXXX, 이름: 의석")  # TODO: 실제 학번/이름으로 수정
-
-st.write(
-    "이 앱은 madang 데이터베이스 CSV(Book, Customer, Orders)를 "
-    "DuckDB로 불러와서 Streamlit에서 조회/분석하는 예시입니다."
-)
+st.caption("12243743 정의석")  # TODO: 실제 학번/이름으로 수정
 
 @st.cache_resource
 def init_connection():
